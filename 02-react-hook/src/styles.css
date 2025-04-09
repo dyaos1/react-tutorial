@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+.test-input {
+  margin: 2px;
+}
+
+.test-button {
+  margin: 2px;
+}
+
+.test-display {
+  margin: 2px;
+}
