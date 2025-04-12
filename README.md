@@ -10,3 +10,21 @@
 - 기초적인 수준의 javascript 또는 typescript
 - 기초적인 수준의 git
 - 기초적인 수준의 html, css
+
+### git 사용법
+
+- 0. git 설치
+
+- 1. 로컬폴더로 소스코드 옮기기
+적당한 폴더 생성 후
+ ```cmd
+ git clone https://github.com/dyaos1/react-tutorial.git
+ ```
+
+- 2. 원하는 branch로 옮기기
+```cmd
+git checkout -t origin/브랜치명
+```
+
+> 예) 01-react-basic-02 시점으로 변경   
+> ```git checkout -t origin/01-react-basic-02```
